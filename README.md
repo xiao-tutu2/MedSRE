@@ -29,18 +29,13 @@ test.py         # 测试入口
 └── README.md
 
 ## 环境配置
-
 建议使用 Python 3.8 及以上版本。
-
 安装常用依赖：
 pip install torch torchvision
 pip install numpy scipy scikit-learn
 pip install pillow opencv-python
 pip install tqdm matplotlib
-
-如果项目中已有 `requirements.txt`，也可以直接运行：
-pip install -r requirements.txt
-
+也可以直接运行：pip install -r requirements.txt
 
 ## 数据集准备
 
@@ -58,7 +53,6 @@ normal      # 正常
 运行前请确认数据路径与代码中的数据读取路径一致。
 
 ## 训练模型
-
 在项目根目录下运行：
 python meta_train.py
 
@@ -112,7 +106,6 @@ python test.py --shot 10
 | `network/resnet18.py`       | ResNet18 网络结构 |
 
 ## 运行流程
-
 完整运行流程如下：
 
 # 1. 安装依赖
@@ -127,7 +120,6 @@ python meta_train.py
 # 4. 测试模型
 python test.py
  注意事项
-
 1. 运行代码前，请确认数据集路径正确。
 2. 如果代码中使用 GPU，请确认 CUDA 和 PyTorch 版本匹配。
 3. 如果运行时报路径错误，请检查 `data/BUSI/` 是否存在。
