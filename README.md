@@ -85,20 +85,29 @@ normal      # 正常
 
 ## 训练模型
 在项目根目录下运行：
+
 python meta_train.py
 
 如果代码支持命令行参数，可以通过以下命令查看参数：
+
 python meta_train.py --help
 
 常见训练参数示例：
+
 python meta_train.py --shot 5
 
 如果需要训练不同 shot 设置，可以分别运行：
+
 python meta_train.py --shot 1
+
 python meta_train.py --shot 2
+
 python meta_train.py --shot 3
+
 python meta_train.py --shot 4
-python meta_train.py --shot 5
+
+python meta_train.py --shot 
+
 python meta_train.py --shot 10
 
 注意：如果 `meta_train.py` 中没有设置命令行参数，请直接在代码文件中修改对应参数后运行。
