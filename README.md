@@ -48,25 +48,39 @@ test.py         # 测试入口
 ## 环境配置
 建议使用 Python 3.8 及以上版本。
 安装常用依赖：
+
 pip install torch torchvision
+
 pip install numpy scipy scikit-learn
+
 pip install pillow opencv-python
+
 pip install tqdm matplotlib
+
 也可以直接运行：pip install -r requirements.txt
 
 ## 数据集准备
 
 将 BUSI 数据集放入 `data/` 目录下，推荐目录结构如下：
+
 data/
+
 └── BUSI/
+
     ├── benign/
+    
     ├── malignant/
+    
     └── normal/
 
 三类图像分别对应：
+
 benign      # 良性
+
 malignant   # 恶性
+
 normal      # 正常
+
 运行前请确认数据路径与代码中的数据读取路径一致。
 
 ## 训练模型
