@@ -18,18 +18,31 @@ test.py         # 测试入口
 ├── methods/
 
 │   ├── __init__.py
+
 │   ├── prior_template.py
+
 │   ├── priornet.py
+
 │   ├── protonet.py
+
 │   └── template.py
+
 │
+
 ├── network/
+
 │   ├── __init__.py
+
 │   ├── resnet.py
+
 │   └── resnet18.py
+
 │
+
 ├── meta_train.py
+
 ├── test.py
+
 └── README.md
 
 ## 环境配置
