@@ -115,12 +115,15 @@ python meta_train.py --shot 10
 ## 测试模型
 
 在项目根目录下运行：
+
 python test.py
 
 如果代码支持命令行参数，可以通过以下命令查看参数：
+
 python test.py --help
 
 常见测试命令示例：
+
 python test.py --shot 5
 
 如果需要测试不同 shot 设置，可以分别运行：
