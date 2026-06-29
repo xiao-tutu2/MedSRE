@@ -5,6 +5,7 @@
 
 项目入口文件：
 meta_train.py   # 训练入口
+
 test.py         # 测试入口
 
 项目结构：
@@ -203,6 +204,7 @@ python test.py
 4. 如果运行时报参数错误，请先执行：
 
 python meta_train.py --help
+
 python test.py --help
 
 5. 如果脚本不支持命令行参数，需要在 `meta_train.py` 或 `test.py` 内部直接修改参数。
