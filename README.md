@@ -8,7 +8,8 @@ meta_train.py   # 训练入口
 test.py         # 测试入口
 
 项目结构：
-<img width="1670" height="1076" alt="image" src="https://github.com/user-attachments/assets/e4d60679-151e-44b9-ac99-b947ba052c30" />
+<img width="4235" height="3352" alt="image" src="https://github.com/user-attachments/assets/28b08d81-7138-4690-ae7a-afe6d9c95c1e" />
+
 
 
 ## 目录结构
