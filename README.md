@@ -131,12 +131,19 @@ python test.py --help
 python test.py --shot 5
 
 如果需要测试不同 shot 设置，可以分别运行：
+
 python test.py --shot 1
+
 python test.py --shot 2
+
 python test.py --shot 3
+
 python test.py --shot 4
+
 python test.py --shot 5
+
 python test.py --shot 10
+
 注意：如果 `test.py` 中没有设置命令行参数，请直接在代码文件中修改对应参数后运行。
 
 ## 主要文件说明
