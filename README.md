@@ -164,7 +164,29 @@ python test.py --shot 10
 完整运行流程如下：
 
 # 1. 安装依赖
-pip install torch torchvision numpy scipy scikit-learn pillow opencv-python tqdm matplotlib
+# 安装 PyTorch 及 torchvision
+
+pip install torch torchvision
+
+# 安装科学计算库
+
+pip install numpy
+
+pip install scipy
+
+pip install scikit-learn
+
+# 安装图像处理库
+
+pip install pillow
+
+pip install opencv-python
+
+# 安装工具库
+
+pip install tqdm
+
+pip install matplotlib
 
 # 2. 准备数据集
 # 将 BUSI 数据集放到 data/BUSI/ 目录下
